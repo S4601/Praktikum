@@ -5,6 +5,34 @@ body {
     margin: 0;
 }
 
+.navbar {
+    display: flex;
+    background: rgb(255, 153, 0);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;    
+    padding: 20px 0;
+}
+
+.navLinks {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-inline: 25px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.navLinks a:hover {
+  color: #333;
+}
+
 .container {
     background: white;
     padding: 20px;
